@@ -1,4 +1,4 @@
-# AI Agent PDF Parser Challenge
+# AI Agent PDF Parser 
 
 An AI agent that automatically generates custom parsers for bank statement PDFs without manual intervention.
 
@@ -60,14 +60,4 @@ Run tests with:
 pytest tests/
 ```
 
-## Challenge Requirements
 
-- **T1**: Design `agent.py` using LangGraph or lightweight SDK with self-fix loop (≤3 attempts)
-- **T2**: CLI interface `python agent.py --target icici` that reads sample data and writes parser
-- **T3**: Parser contract: `parse(pdf_path) -> pd.DataFrame` matching expected CSV schema
-- **T4**: Test that parser output equals provided CSV via `DataFrame.equals`
-- **T5**: README with 5-step instructions + agent diagram
-
-## License
-
-MIT License
